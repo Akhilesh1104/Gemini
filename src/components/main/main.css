@@ -48,7 +48,6 @@
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 15px;
   padding: 20px;
-  margin-bottom: 30px;
 }
 
 .main .card {
@@ -110,6 +109,7 @@
   outline: none;
   padding: 8px;
   font-size: 18px;
+  width: 100px;;
 }
 
 .search-box div {
@@ -186,10 +186,6 @@
 }
 
 @media (max-width: 600px) {
-  .main-bottom input {
-    flex: none;
-    width: 150px;
-  }
   .main-bottom img {
     width: 20px;
   }
@@ -201,5 +197,13 @@
   }
   .main .cards {
     grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    margin-bottom: 50px;
+  }
+  .main .greet {
+    margin: 20px 0px;
+    font-size: 34px;
+  }
+  .search-box input {
+    font-size: 15px;
   }
 }
