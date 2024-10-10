@@ -5,7 +5,7 @@ import { assets } from "../../assets/assets";
 
 const sidebar = () => {
   const [extended, setExtended] = useState(false);
-  const { newChat } = useContext(Context);
+  const { newChat, setInput, input, } = useContext(Context);
 
   return (
     <div className="sidebar">
@@ -24,17 +24,17 @@ const sidebar = () => {
           <div className="recent">
             <p className="recent-title">Recent</p>
 
-            <div className="recent-entry">
+            <div className="recent-entry" onClick={()=>{input === "What is ReactJS" ? setInput('') : setInput("What is ReactJS")}}>
               <img src={assets.message_icon} alt="" />
               <p>What is React...</p>
             </div>
 
-            <div className="recent-entry">
+            <div className="recent-entry" onClick={()=>{input === "What is MongoDB" ? setInput('') : setInput("What is MongoDB")}}>
               <img src={assets.message_icon} alt="" />
               <p>What is Mongo...</p>
             </div>
 
-            <div className="recent-entry">
+            <div className="recent-entry" onClick={()=>{input === "What is ExpressJS" ? setInput('') : setInput("What is ExpressJS")}}>
               <img src={assets.message_icon} alt="" />
               <p>What is Express...</p>
             </div>

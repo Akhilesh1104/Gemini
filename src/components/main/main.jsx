@@ -34,24 +34,24 @@ const main = () => {
             </div>
 
             <div className="cards">
-              <div className="card" onClick={()=>{setInput("Suggest some beautiful places to see on an upcoming road trip")}}>
+              <div className="card" onClick={()=>{input === "Suggest some beautiful places to see on an upcoming road trip" ? setInput('') : setInput("Suggest some beautiful places to see on an upcoming road trip")}}>
                 <p>
                   Suggest some beautiful places to see on an upcoming road trip
                 </p>
                 <img src={assets.compass_icon} alt="" />
               </div>
 
-              <div className="card" onClick={()=>{setInput("Briefly summarize this concept: urban planning")}}>
+              <div className="card" onClick={()=>{input === "Briefly summarize this concept: urban planning" ? setInput('') : setInput("Briefly summarize this concept: urban planning")}}>
                 <p>Briefly summarize this concept: urban planning</p>
                 <img src={assets.bulb_icon} alt="" />
               </div>
 
-              <div className="card" onClick={()=>{setInput("Brainstorm team bonding activities for our work retreat")}}>
+              <div className="card" onClick={()=>{input === "Brainstorm team bonding activities for our work retreat" ? setInput('') : setInput("Brainstorm team bonding activities for our work retreat")}}>
                 <p>Brainstorm team bonding activities for our work retreat</p>
                 <img src={assets.message_icon} alt="" />
               </div>
 
-              <div className="card" onClick={()=>{setInput("Improve the readability of the following code")}}>
+              <div className="card" onClick={()=>{input === "Improve the readability of the following code" ? setInput('') : setInput("Improve the readability of the following code")}}>
                 <p>Improve the readability of the following code</p>
                 <img src={assets.code_icon} alt="" />
               </div>
