@@ -1,8 +1,15 @@
-# React + Vite
+# Google Gemini Clone
+![gemini_icon](https://github.com/user-attachments/assets/365a571a-98bd-42d4-a2f1-5f98b487790b)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Google Gemini Clone is a React.js web application that replicates the search interface of Google Gemini. This project includes API integration with Google Gemini's language model, allowing users to experience a similar search experience. With this clone, users can explore the functionalities and design of Google Gemini within a React.js environment.
 
-Currently, two official plugins are available:
+![output_img](https://github.com/user-attachments/assets/fe626da5-86f5-43e2-a452-09055e8412cf)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Installation and Setup:
+
+Install my-project with npm
+
+1. Clone the repo git clone https://github.com/Akhilesh1104/Gemini.git
+2. Install required dependencies npm i
+3. Run the server npm run dev
